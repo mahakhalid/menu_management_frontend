@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+* Prerequisites
+
+Node.js to run JavaScript on the server and npm to manage packages and dependencies.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -9,7 +13,9 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
+
+3001 port is defined in Rails app (back end) cors.rb file, If you wish to use different port either change that in cors.rb file in backend project or use '*' there for simplicity
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
